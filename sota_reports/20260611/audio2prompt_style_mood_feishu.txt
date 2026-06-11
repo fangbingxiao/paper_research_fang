@@ -1,0 +1,18 @@
+20260611 Audio2Prompt / 歌曲 Style 与 Mood 抽取 SOTA research 已完成并提交。
+
+主题：audio2prompt / 根据歌曲文件得到 style 和 mood 信息
+年份范围：2022-2026
+输出数量：Top 10
+Baseline：Qwen2-Audio / Qwen2.5-Omni / LP-MusicCaps
+
+本地报告：
+/Users/bingxiaofang/Desktop/starmaker_files/workspace2026/paper/paper_2026_claude/paper_research_fang/sota_reports/20260611/audio2prompt_style_mood_sota_research.md
+GitHub：https://github.com/fangbingxiao/paper_research_fang/blob/task_sota_summary/sota_reports/20260611/audio2prompt_style_mood_sota_research.md
+
+Top 3 推荐：
+1. Qwen3-Omni-30B-A3B-Captioner：代码+模型已开源，适合高质量离线 audio2prompt 标注。
+2. Music Flamingo：音乐理解更专用，适合抽取 style/mood/structure/timbre 等音乐描述。
+3. Audio Flamingo 3：通用音频理解强，适合作为跨 speech/sound/music 的统一音频 LLM 底座。
+
+开源核验结论：
+Qwen3-Omni、Qwen2.5-Omni、Qwen2-Audio 均有官方 GitHub、Hugging Face、ModelScope；Music Flamingo / Audio Flamingo 3 有官方代码和模型但未找到可信官方 ModelScope 镜像；LP-MusicCaps 是数据集/训练 baseline，不是可直接部署模型。
